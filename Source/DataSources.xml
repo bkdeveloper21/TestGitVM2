@@ -7419,6 +7419,8 @@
 
   <ObjectType val="T"/>
 
+  <PositionIndex val="-1"/>
+
   <SchemaDoc val="D:\AACurr\Classes\ExamplesFinished\Resources\Addresses.xsd"/>
 
   <RootName val="AddressBook"/>
@@ -7644,6 +7646,8 @@
   <CheckExistence val="D"/>
 
   <ObjectType val="T"/>
+
+  <PositionIndex val="-1"/>
 
   <SchemaDoc val="D:\AACurr\Classes\ExamplesFinished\Resources\Addresses.xsd"/>
 
