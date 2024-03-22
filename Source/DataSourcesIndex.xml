@@ -8,15 +8,128 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="0"/>
+  <LastIsn val="80"/>
 
-  <LastIsnFolder val="0"/>
+  <LastIsnFolder val="10"/>
+
+  <Folders>
+    <Folder id="1">
+      <Name val="Setup and Menu"/>
+    </Folder>
+    <Folder id="2">
+      <Name val="Memory Tables"/>
+    </Folder>
+    <Folder id="3">
+      <Name val="SQL Address Book"/>
+    </Folder>
+    <Folder id="4">
+      <Name val="SQL Users"/>
+    </Folder>
+    <Folder id="5">
+      <Name val="XML AddressBook"/>
+    </Folder>
+    <Folder id="6">
+      <Name val="XML Letters"/>
+    </Folder>
+    <Folder id="7">
+      <Name val="CountryName"/>
+    </Folder>
+    <Folder id="8">
+      <Name val="CountryNameResponse"/>
+    </Folder>
+    <Folder id="9">
+      <Name val="Requests"/>
+    </Folder>
+    <Folder id="10">
+      <Name val="JSON"/>
+    </Folder>
+  </Folders>
 
 </Header>
 
 <DataRepositoryProperties/>
  <DataSourceRepository>
   <DataObjects>
-  </DataObjects>
+ 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="1" PhysicalName="Menu" Resident="N" UniqueISNConvState="12" data_source="Memory" id="1" name="Menu" offset="927" length="3797"/> 
+<DataObject Comment="/* General purpose temp table for displaying vectors and other data to the user, and allowing the user to choose and sort the data */" FolderIsn="1" PhysicalName="Temp_Alpha_List" Resident="N" UniqueISNConvState="12" data_source="Memory" id="2" name="Temp Alpha List" offset="4725" length="5355"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="1" PhysicalName="Menu" Resident="N" UniqueISNConvState="12" data_source="Memory" id="21" name="Menu" offset="10081" length="3798"/> 
+<DataObject Comment="/* General purpose temp table for displaying vectors and other data to the user, and allowing the user to choose and sort the data */" FolderIsn="1" PhysicalName="Temp_Alpha_List" Resident="N" UniqueISNConvState="12" data_source="Memory" id="22" name="Temp Alpha List" offset="13880" length="5356"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="1" PhysicalName="Menu" Resident="N" UniqueISNConvState="12" data_source="Memory" id="51" name="Menu" offset="19237" length="3798"/> 
+<DataObject Comment="/* General purpose temp table for displaying vectors and other data to the user, and allowing the user to choose and sort the data */" FolderIsn="1" PhysicalName="Temp_Alpha_List" Resident="N" UniqueISNConvState="12" data_source="Memory" id="52" name="Temp Alpha List" offset="23036" length="5356"/> 
+<DataObject Comment="/* Data for test programs */&#xD;&#xA;&#xD;&#xA;For the sake of illustration, and to make installation easier on different platforms, these programs use memory tables and build the data on the fly. For your own programs, you can use them with any DBMS you like." FolderIsn="2" PhysicalName="Generic_Test_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="3" name="Generic Test Table" offset="28393" length="11225"/> 
+<DataObject Comment="/* A handy table to store many different code translations, for combo boxes or other sets of choices */&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;GENDER M  Male &#xD;&#xA;GENDER F   Female &#xD;&#xA;COLOR   Y   Yellow&#xD;&#xA;COLOR   R   Red&#xD;&#xA;COLOR   G   Green&#xD;&#xA;" FolderIsn="2" PhysicalName="Generic_Codes_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="4" name="Generic Codes Table" offset="39619" length="4330"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="2" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="5" name="Generic Tree" offset="43950" length="4447"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email */" FolderIsn="2" PhysicalName="eMail" Resident="N" UniqueISNConvState="12" data_source="Memory" id="6" name="eMail" offset="48398" length="11739"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email attachments*/" FolderIsn="2" PhysicalName="eMail_Attachments" Resident="N" UniqueISNConvState="12" data_source="Memory" id="7" name="eMail Attachments" offset="60138" length="2668"/> 
+<DataObject Comment="/* Data for test programs */&#xD;&#xA;&#xD;&#xA;For the sake of illustration, and to make installation easier on different platforms, these programs use memory tables and build the data on the fly. For your own programs, you can use them with any DBMS you like." FolderIsn="2" PhysicalName="Generic_Test_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="23" name="Generic Test Table" offset="62807" length="11226"/> 
+<DataObject Comment="/* A handy table to store many different code translations, for combo boxes or other sets of choices */&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;GENDER M  Male &#xD;&#xA;GENDER F   Female &#xD;&#xA;COLOR   Y   Yellow&#xD;&#xA;COLOR   R   Red&#xD;&#xA;COLOR   G   Green&#xD;&#xA;" FolderIsn="2" PhysicalName="Generic_Codes_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="24" name="Generic Codes Table" offset="74034" length="4331"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="2" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="25" name="Generic Tree" offset="78366" length="4448"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email */" FolderIsn="2" PhysicalName="eMail" Resident="N" UniqueISNConvState="12" data_source="Memory" id="26" name="eMail" offset="82815" length="11740"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email attachments*/" FolderIsn="2" PhysicalName="eMail_Attachments" Resident="N" UniqueISNConvState="12" data_source="Memory" id="27" name="eMail Attachments" offset="94556" length="2669"/> 
+<DataObject Comment="/* Data for test programs */&#xD;&#xA;&#xD;&#xA;For the sake of illustration, and to make installation easier on different platforms, these programs use memory tables and build the data on the fly. For your own programs, you can use them with any DBMS you like." FolderIsn="2" PhysicalName="Generic_Test_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="53" name="Generic Test Table" offset="97226" length="11226"/> 
+<DataObject Comment="/* A handy table to store many different code translations, for combo boxes or other sets of choices */&#xD;&#xA;&#xD;&#xA;Examples:&#xD;&#xA;&#xD;&#xA;GENDER M  Male &#xD;&#xA;GENDER F   Female &#xD;&#xA;COLOR   Y   Yellow&#xD;&#xA;COLOR   R   Red&#xD;&#xA;COLOR   G   Green&#xD;&#xA;" FolderIsn="2" PhysicalName="Generic_Codes_Table" Resident="N" UniqueISNConvState="12" data_source="Memory" id="54" name="Generic Codes Table" offset="108453" length="4331"/> 
+<DataObject Comment="/* This contains the &quot;tree mode&quot; menu used for these programs */" FolderIsn="2" PhysicalName="Generic_Tree" Resident="N" UniqueISNConvState="12" data_source="Memory" id="55" name="Generic Tree" offset="112785" length="4448"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email */" FolderIsn="2" PhysicalName="eMail" Resident="N" UniqueISNConvState="12" data_source="Memory" id="56" name="eMail" offset="117234" length="11740"/> 
+<DataObject Comment="/* This table is used to illustrate sending and receiving email attachments*/" FolderIsn="2" PhysicalName="eMail_Attachments" Resident="N" UniqueISNConvState="12" data_source="Memory" id="57" name="eMail Attachments" offset="128975" length="2669"/> 
+<DataObject Comment="/* Address Book Header. The main record for each contact */" FolderIsn="3" PhysicalName="Address_Book_Hdr" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="8" name="Address Book Header" offset="131645" length="10643"/> 
+<DataObject Comment="/* Phone numbers for this contact */" FolderIsn="3" PhysicalName="Addr_Phones" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="9" name="Phone Numbers" offset="142289" length="5541"/> 
+<DataObject Comment="/* Addresses for this contact */" FolderIsn="3" PhysicalName="Addr_Addresses" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="10" name="Addresses" offset="147831" length="8879"/> 
+<DataObject Comment="/* Address Book Header. The main record for each contact */" FolderIsn="3" PhysicalName="Address_Book_Hdr" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="28" name="Address Book Header" offset="156711" length="10644"/> 
+<DataObject Comment="/* Phone numbers for this contact */" FolderIsn="3" PhysicalName="Addr_Phones" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="29" name="Phone Numbers" offset="167356" length="5542"/> 
+<DataObject Comment="/* Addresses for this contact */" FolderIsn="3" PhysicalName="Addr_Addresses" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="30" name="Addresses" offset="172899" length="8879"/> 
+<DataObject Comment="/* Address Book Header. The main record for each contact */" FolderIsn="3" PhysicalName="Address_Book_Hdr" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="58" name="Address Book Header" offset="181779" length="10644"/> 
+<DataObject Comment="/* Phone numbers for this contact */" FolderIsn="3" PhysicalName="Addr_Phones" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="59" name="Phone Numbers" offset="192424" length="5542"/> 
+<DataObject Comment="/* Addresses for this contact */" FolderIsn="3" PhysicalName="Addr_Addresses" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="60" name="Addresses" offset="197967" length="8879"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Logins" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="11" name="User Logins" offset="206847" length="6308"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Rights" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="12" name="User Rights" offset="213156" length="4043"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Groups" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="13" name="User Groups" offset="217200" length="4041"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Logins" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="31" name="User Logins" offset="221242" length="6308"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Rights" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="32" name="User Rights" offset="227551" length="4043"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Groups" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="33" name="User Groups" offset="231595" length="4041"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Logins" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="61" name="User Logins" offset="235637" length="6308"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Rights" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="62" name="User Rights" offset="241946" length="4043"/> 
+<DataObject FolderIsn="4" PhysicalName="User_Groups" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="63" name="User Groups" offset="245990" length="4041"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="14" name="Addresses.AddressBook" offset="250032" length="4420"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="15" name="Addresses.Contact" offset="254453" length="15100"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="16" name="Addresses.Phones" offset="269554" length="8382"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="17" name="Addresses.Addresses" offset="277937" length="11460"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="18" name="Addresses.Blobs" offset="289398" length="8104"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="34" name="Addresses.AddressBook" offset="297503" length="4420"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="35" name="Addresses.Contact" offset="301924" length="15100"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="36" name="Addresses.Phones" offset="317025" length="8382"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="37" name="Addresses.Addresses" offset="325408" length="11460"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="38" name="Addresses.Blobs" offset="336869" length="8104"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="64" name="Addresses.AddressBook" offset="344974" length="4420"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="65" name="Addresses.Contact" offset="349395" length="15100"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="66" name="Addresses.Phones" offset="364496" length="8382"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="67" name="Addresses.Addresses" offset="372879" length="11460"/> 
+<DataObject FolderIsn="5" PhysicalName="%WorkingDir%Data\AddressBook.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="68" name="Addresses.Blobs" offset="384340" length="8104"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="19" name="Addresses.Letters" offset="392445" length="3122"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="20" name="Addresses.CustLetter" offset="395568" length="6385"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="39" name="Addresses.Letters" offset="401954" length="3122"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="40" name="Addresses.CustLetter" offset="405077" length="6385"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="69" name="Addresses.Letters" offset="411463" length="3122"/> 
+<DataObject FolderIsn="6" PhysicalName="%WorkingDir%Data\CustLetter.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="70" name="Addresses.CustLetter" offset="414586" length="6385"/> 
+<DataObject Comment="/* This data source definition was created automatically, by using Get Definition on the XSD provided by the SOAP service */" FolderIsn="7" PhysicalName="CountryName.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="41" name="CountryInfoService_CountryName" offset="420972" length="3963"/> 
+<DataObject Comment="/* This data source definition was created automatically, by using Get Definition on the XSD provided by the SOAP service */" FolderIsn="7" PhysicalName="CountryName.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="71" name="CountryInfoService_CountryName" offset="424936" length="3963"/> 
+<DataObject Comment="/* This data source definition was created automatically, by using Get Definition on the XSD provided by the SOAP service */" FolderIsn="8" PhysicalName="CountryNameResponse.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="42" name="CountryInfoService_CountryName" offset="428900" length="4004"/> 
+<DataObject Comment="/* This data source definition was created automatically, by using Get Definition on the XSD provided by the SOAP service */" FolderIsn="8" PhysicalName="CountryNameResponse.xml" Resident="N" UniqueISNConvState="12" data_source="Default XML Database" id="72" name="CountryInfoService_CountryName" offset="432905" length="4004"/> 
+<DataObject FolderIsn="9" PhysicalName="Current_Queue" Resident="N" UniqueISNConvState="12" data_source="Memory" id="43" name="Current Queue" offset="436910" length="9417"/> 
+<DataObject FolderIsn="9" PhysicalName="Device_ids" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="44" name="Push Notification Device IDs" offset="446328" length="2359"/> 
+<DataObject FolderIsn="9" PhysicalName="Current_Queue" Resident="N" UniqueISNConvState="12" data_source="Memory" id="73" name="Current Queue" offset="448688" length="9417"/> 
+<DataObject FolderIsn="9" PhysicalName="Device_ids" Resident="N" UniqueISNConvState="12" data_source="OnlineSamples" id="74" name="Push Notification Device IDs" offset="458106" length="2359"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="45" name="Organization" offset="460466" length="3200"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="46" name="Contact" offset="463667" length="1684"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="47" name="Address" offset="465352" length="2402"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="48" name="Employees" offset="467755" length="4141"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="75" name="Organization" offset="471897" length="3200"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="76" name="Contact" offset="475098" length="1684"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="77" name="Address" offset="476783" length="2402"/> 
+<DataObject FolderIsn="10" PhysicalName="%WorkingDir%Data\Organization.JSON" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="78" name="Employees" offset="479186" length="4141"/> 
+<DataObject ParentJsonDbhId="48" PhysicalName="Name" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="49" name="Name" offset="483328" length="1371"/> 
+<DataObject ParentJsonDbhId="48" PhysicalName="SkillSet" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="50" name="SkillSet" offset="484700" length="1382"/> 
+<DataObject ParentJsonDbhId="78" PhysicalName="Name" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="79" name="Name" offset="486083" length="1371"/> 
+<DataObject ParentJsonDbhId="78" PhysicalName="SkillSet" Resident="N" UniqueISNConvState="12" data_source="Default JSON Database" id="80" name="SkillSet" offset="487455" length="1382"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="3109585010315873"/>  </Application>
+ <LastModified val="31095857-106304656"/>  </Application>
